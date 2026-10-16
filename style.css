@@ -1,0 +1,43 @@
+ body {
+     font-family: monospace;
+     margin: 0 auto;
+ }
+
+
+
+ #menu {
+     display: flex;
+     justify-content: right;
+     margin-top: 20px;
+     background-color: grey;
+     padding: 20px;
+     box-shadow: 2px black 20px ;
+
+ }
+
+ .bouton {
+     background-color: orange;
+     border-radius: 10%;
+     max-height: 150px;
+     font-size: 2em;
+     text-decoration: none;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: black;
+     padding: 5px;
+     transition: 200ms;
+    
+ }
+
+ .bouton:hover {
+     padding: 10px;
+     font-size: 3em;
+ }
+
+
+ #presentation {
+    font-family: 'Calibri';
+    font-size: 1.2em;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+ }
