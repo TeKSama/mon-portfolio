@@ -4,31 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio Victor MARIE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<header>
-    <div id="menu">
-        <nav>
-            <a href="" class="bouton">Accueil</a>
-            <a href="" class="bouton">Curriculum vitae</a>
-        </nav>
-    </div>
-
-</header>
-
 <body>
-    <h1>Portfolio Victor</h1>
-    <h2>mes compétences:</h2>
-    <h3>pas grand chose</h3>
-    <div>
-        <article>
-            <p id="presentation">
-                Etant grand amateur de jeux video depuis ma tendre enfance j'ai toujours etait attirée par l'envers du decor comment un jeu video fonctionne j'allais chez un amis qui lui avait un ordinateur personnel et on s'amuser a bidouiller dessus pendant les weekend,en 2017 j'ai eu mon premier ordinateur personnel et c'est comme ça que j'ai commencer a faire des petits projet a coter personnel apres les cours au colleges comme des serveur de jeu "garry's mod" des petits projet de jeu sur unreal engine 5 avec des prémices sur C++ et plus recemment je me suis mis au modding sur le jeu minecraft qui ma initié au java
-            </p>
-        </article>
-    </div>
+    <header id="menu">
+        <a href="index.html" class="logo">TeK<span>Sama</span></a>
+        <nav>
+            <a href="#apropos">À propos</a>
+            <a href="#competences">Compétences</a>
+            <a href="#projets">Projets</a>
+            <a href="#contact">Contact</a>
+            <a href="cv.html" class="bouton">Mon CV</a>
+        </nav>
+    </header>
+
+    <section class="accueil">
+        <div>
+            <p class="mono">&gt; Bonjour, je suis</p>
+            <h1>Victor MARIE</h1>
+            <p class="role">Développeur web en formation · Moddeur Minecraft</p>
+            <a href="#projets" class="bouton">Voir mes projets</a>
+        </div>
+        <img src="public/images/victor.jpg" alt="photo de moi" class="photo">
+    </section>
+
+    <section id="apropos">
+        <h2><span class="mono">01.</span> À propos</h2>
+        <p>
+            Etant grand amateur de jeux vidéo depuis mon enfance, j'ai toujours été attiré par l'envers du décor,
+            comment un jeu vidéo fonctionne. J'allais chez un ami qui avait un ordinateur et on s'amusait à
+            bidouiller dessus pendant les week-ends.
+        </p>
+        <p>
+            En 2017 j'ai eu mon premier ordinateur et c'est comme ça que j'ai commencé à faire des petits projets à
+            côté des cours au collège, comme des serveurs de jeu "Garry's Mod" et des petits projets de jeu sur
+            Unreal Engine 5 avec des débuts en C++. Plus récemment je me suis mis au modding sur Minecraft, ce qui
+            m'a initié au Java.
+        </p>
+    </section>
+
+    <section id="competences">
+        <h2><span class="mono">02.</span> Compétences</h2>
+        <div class="cartes">
+            <div class="carte">
+                <h3>Web</h3>
+                <p>HTML, CSS, JavaScript (je débute)</p>
+            </div>
+            <div class="carte">
+                <h3>Modding</h3>
+                <p>Java pour des mods Minecraft</p>
+            </div>
+            <div class="carte">
+                <h3>Jeu vidéo</h3>
+                <p>C++ et Blueprint sur Unreal Engine 5</p>
+            </div>
+            <div class="carte">
+                <h3>Informatique</h3>
+                <p>Maintenance, réseaux, un peu de Python</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets">
+        <h2><span class="mono">03.</span> Projets</h2>
+        <div class="cartes">
+            <div class="carte">
+                <p class="mono petit">Mod Minecraft · Java</p>
+                <h3>Create Veridium Expansion</h3>
+                <p>Ajoute des outils, des armures et des jetpacks pour le mod Create.</p>
+                <a href="https://github.com/TeKSama/Create-Veridium-Expansion">Voir sur GitHub →</a>
+            </div>
+            <div class="carte">
+                <p class="mono petit">Mod Minecraft · Java</p>
+                <h3>Create Reforge</h3>
+                <p>Permet de reforger ses armes et armures pour avoir des bonus aléatoires.</p>
+                <a href="https://github.com/TeKSama/CreateReforge">Voir sur GitHub →</a>
+            </div>
+            <div class="carte">
+                <p class="mono petit">Mod Minecraft · Java</p>
+                <h3>Create War Horn</h3>
+                <p>Ajoute un cor de guerre qui fonctionne avec le mod Create.</p>
+                <a href="https://github.com/TeKSama/CreateWarHorn">Voir sur GitHub →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2><span class="mono">04.</span> Contact</h2>
+        <p>Email : <a href="mailto:victormarie01@gmail.com">victormarie01@gmail.com</a></p>
+        <p>GitHub : <a href="https://github.com/TeKSama">TeKSama</a></p>
+    </section>
+
+    <footer>
+        <p class="mono petit">Victor MARIE - 2026</p>
+    </footer>
 </body>
 
 </html>
