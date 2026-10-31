@@ -47,8 +47,12 @@ hr {
     border: 3px solid white;
 }
 
-.age {
+.stage {
     font-weight: bold;
+    background-color: white;
+    color: #0047b3;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 .photo {
@@ -64,7 +68,7 @@ hr {
 
 .gauche h2 {
     text-align: right;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .profil {
@@ -77,17 +81,17 @@ hr {
 .droite {
     width: 60%;
     padding: 30px;
-    padding-top: 80px;
 }
 
 .droite h2 {
     color: #0f4c75;
     letter-spacing: 2px;
+    margin-top: 25px;
 }
 
 .droite li {
     font-size: 14px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .annee {
@@ -95,8 +99,4 @@ hr {
     font-weight: bold;
     font-size: 18px;
     margin-left: 10px;
-}
-
-.formation {
-    margin-top: 80px;
 }
